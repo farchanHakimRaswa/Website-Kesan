@@ -1,0 +1,230 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+.card {
+  height: 100%;
+}
+
+.ex-equal{
+	min-height:123.8px !important;
+ }
+#page-view{
+	min-height:568px;
+}
+.navbar-inner{
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+.text-middle{
+	vertical-align: middle;
+	line-height: 2.5em;
+}
+
+.footer-ex{
+    height: 2.5em;
+    width: 100%;
+    color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+    position: fixed;
+    top: 100%;
+    margin-top: -2.5em;
+    z-index: 1;
+}
+.special-jumb-front{
+	background: linear-gradient(to right, #11998e, #93F9B9) !important;
+}
+#spacing-bottom{
+   min-height:80px;
+}
+#underline{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #52d3aa;
+    left: 50%;
+    margin-left: -40px;
+    bottom: 0;
+}
+
+#contact-line::after {
+    width: 300px !important;
+    margin-left: -80px !important;
+}
+#container-justify{
+    justify-content: center;
+
+}
+.row-justify{
+    justify-content: center;
+}
+.wrap-form{
+    margin: 0 auto;
+    width: 670px;
+    background: #f1fff1;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.contact-form-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(54,84,99,0.7);
+}
+.contact-form-title {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 15px 64px 15px;
+}
+.i-am-centered { 
+    margin: auto; 
+    max-width: 1023px;
+}
+.contact-form-main {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 43px 88px 57px 190px;
+}
+.validate-input {
+    position: relative;
+}
+.wrap-input {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #52d3aa;
+    margin-bottom: 26px;
+
+}
+.label-input-form {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    text-align: right;
+    position: absolute;
+    left: -105px;
+    /*top: 14px;
+    width: 80px; */
+}
+button,input{
+    overflow: visible;
+}
+input{
+
+    outline: none;
+    border: none;
+}
+input .input-textbox {
+    height: 45px;
+}
+.input-textbox {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    background: transparent;
+    padding: 0 5px;
+}
+.focus-input-textbox {
+
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+
+}
+.focus-input-textbox::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    background: #57b846;
+}
+#special_form_div{
+    height:auto; 
+    margin:0 auto; 
+    text-align:center;
+    /*border:1px solid blue; */
+}
+
+#special_form{
+    /*border:1px solid red; */
+    width:50%; 
+    margin:0 auto;
+}
+#special_section_heading{
+    padding-bottom: 25px !important;
+    margin-bottom: 25px !important;
+}
+#special-div-row{
+    margin-bottom: 50px;
+
+}
+#specific-form-control{
+    width:40% !important;
+    margin-left:30%;
+}
+@media only screen and (min-width: 480px) {
+ #spacing-left{
+    margin-left:90px;
+}
+
+}
+@media only screen and (max-width: 480px) {
+ #spacing-left{
+    margin-left:25% !important;
+}
+      
+}
+@media only screen and (min-width: 720px) {
+    #form-width{
+        margin-left:25%;
+        float:left;
+        width:50%;
+    }
+}
